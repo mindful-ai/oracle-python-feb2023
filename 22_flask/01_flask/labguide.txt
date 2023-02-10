@@ -1,0 +1,5 @@
+   
+    dt = datetime.now()
+    format = "%A, %D %B, %Y %I:%M:%S %p"
+    respstr = '<div style="background-color:Violet"><h1>' + dt.strftime(format) + '</h1></div>'
+    return ( respstr )
